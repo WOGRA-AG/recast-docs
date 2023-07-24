@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "recast-docs"
+version = "0.1.0"
+description = ""
+authors = ["Tim Köhler <info@wogra.com>"]
+readme = "README.md"
+packages = [{include = "recast_docs"}]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+mkdocs = "^1.4.3"
+mkdocs-material = "^9.1.19"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
